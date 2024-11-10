@@ -1,0 +1,15 @@
+Bu database-de 8 table var.
+
+Ilk olaraq Libraries table qurmusam ki,bir nece kitabxana ola biler ve her kitabxanaya uygun kitablar olsun.
+(Kitabxana filiallari ola biler kimi yeni kitabxanalar sistemi kimi baxmaga calisdim.)
+
+library_books table-ni qurmusam ki,kitabxana ile kitablar arasindaki relation-i gostersin yeni ozunde hem kitabxananin id-sini saxlayir hem de kitablarin id-sini saxlayir.(Many to many) Bir nece kitabxanada eyni kitabdan ve ya ferqli kitablar ola biler.
+
+Books table-da kitablara aid melumatlar ve diger table-larin idleri saxlanir.
+
+Genre,Authors table-lari ozlerine uygun melumatlari saxlayir.
+
+Loans table-da hansi id-li istifadeci hansi id-li kitabi goturdu ve ne zaman goturdu melumatlarini ozunde saxlayir.
+Istifadeci kitabi qaytarmayana qeder loanstatusda false gorunecek.
+
+User details-de ozunde userin etrafli melumatlarini saxlayir.
